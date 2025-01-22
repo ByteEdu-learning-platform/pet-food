@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> dog parmacy shop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><i class="fa-solid fa-paw"></i>
+              Kitter</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cart.html"><i class="bi bi-cart"></i>Cart</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          
+          <div class="carousel-item active">
+            <img src="assets/images/cr2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/images/cr1.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      
+      
+      <!--div class="container mt-5">
+        <div class="row text-center">
+            <!-- First Image -
+            <div class="col-md-3 col-sm-6 mb-4">
+                <img src="assets/images2/image 1.webp" alt="Image 1" class="img-fluid rounded">
+            </div>
+            <!-- Second Image --
+            <div class="col-md-3 col-sm-6 mb-4">
+                <img src="assets/images2/image3.webp" alt="Image 2" class="img-fluid rounded">
+            </div>
+            <!-- Third Image --
+            <div class="col-md-3 col-sm-6 mb-4">
+                <img src="assets/images2/image 4.webp" alt="Image 3" class="img-fluid rounded">
+            </div>
+            <!-- Fourth Image --
+            <div class="col-md-3 col-sm-6 mb-4">
+            <img src="assets/images2/wellness_banner_1.webp" alt="Image 4" class="img-fluid rounded">
+            </div>
+        </div>
+    </-div>-->
+    <div class="container mt-5">
+        <div class="row text-center">
+          <!-- First Image -->
+          <div class="col-md-3 col-sm-6 mb-4">
+            <img src="assets/images2/image 1.webp" alt="Image 1" class="img-fluid rounded">
+          </div>
+          <!-- Second Image -->
+          <div class="col-md-3 col-sm-6 mb-4">
+            <img src="assets/images2/image3.webp" alt="Image 2" class="img-fluid rounded">
+          </div>
+          <!-- Third Image -->
+          <div class="col-md-3 col-sm-6 mb-4">
+            <img src="assets/images2/image 4.webp" alt="Image 3" class="img-fluid rounded">
+          </div>
+          <!-- Fourth Image -->
+          <div class="col-md-3 col-sm-6 mb-4">
+            <img src="assets/images2/wellness_banner_1.webp" alt="Image 4" class="img-fluid rounded">
+          </div>
+        </div>
+      </div>
+      
+
+    <section class="single-image-section py-5">
+        <div class="container text-center">
+          <img src="assets/images/pharmacy banner.webp" alt="Wellness Banner" class="img-fluid rounded shadow">
+        </div>
+      </section>
+      <!--Cards item start-->
+     <div class="container mb-5 ">
+        <div class="row gy-4">
+        
+            <div class="col-xl-3 col-md-4 col-sm-6 ">
+                <div class="card product-item d-flex flex-column h-100">
+                    <img src="assets/images2/1.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-subtitle mb-2 text-muted"> Digyton  </h5>
+                      
+                      <p class="card-text">$30.00  <span class="float-end rating-stars" >
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                     </span>
+                    </p>
+                    <a class="btn btn-outline-primary text-center" href="cart.html?product=Digyton&price=30.00&image=assets/images2/1.webp" role="button">Add to Cart</a>
+                       </div>
+                  </div>
+            </div>
+            <div class="col-xl-3 col-md-4 col-sm-6 ">
+                <div class="card product-item" >
+                    <img src="assets/images2/2.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-subtitle mb-2 text-muted">Defender Pro </h5>
+                      
+                      <p class="card-text">$42.00  <span class="float-end rating-stars" >
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                     </span>
+                    </p>
+                    <a class="btn btn-outline-primary text-center" href="cart.html?product=Defender%20Pro&price=42.00&image=assets/images2/2.webp" role="button">Add to Cart</a>
+                </div>
+                  </div>
+            </div>
+            <div class="col-xl-3 col-md-4 col-sm-6 ">
+                <div class="card product-item" >
+                    <img src="assets/images2/3.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-subtitle mb-2 text-muted">Defender Nex</h5>
+                      
+                      <p class="card-text">$45.00  <span class="float-end rating-stars" >
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                     </span>
+                    </p>
+                    <a class="btn btn-outline-primary text-center" href="cart.html?product=Defender%20Nex&price=45.00&image=assets/images2/3.webp" role="button">Add to Cart</a>
+        
+                      
+                    </div>
+                  </div>
+            </div>
+            <div class="col-xl-3 col-md-4 col-sm-6 ">
+                <div class="card product-item" >
+                    <img src="assets/images2/4.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-subtitle mb-2 text-muted">Diafinne</h5>
+                      
+                      <p class="card-text">$15.00  <span class="float-end rating-stars" >
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                     </span>
+                    </p>
+                    <a class="btn btn-outline-primary text-center" href="cart.html?product=Diafine&price=15.00&image=assets/images2/4.webp" role="button">Add to Cart</a>
+                     </div>
+                  </div>
+            </div>
+           
+        
+        <div class="row gy-4">
+          
+          <div class="col-xl-3 col-md-4 col-sm-6 ">
+            <div class="card product-item" >
+                <img src="assets/images2/5.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-subtitle mb-2 text-muted">Wartgo</h5>
+                  
+                  <p class="card-text">$40.00  <span class="float-end rating-stars" >
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                 </span>
+                </p>
+                <a class="btn btn-outline-primary text-center" href="cart.html?product=Wartgo&price=40.00&image=assets/images2/5.webp" role="button">Add to Cart</a>
+         
+                </div>  
+                </div>
+              
+        </div>
+        <div class="col-xl-3 col-md-4 col-sm-6 ">
+          <div class="card product-item" >
+              <img src="assets/images2/6.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-subtitle mb-2 text-muted">Wormisule xp</h5>
+                
+                <p class="card-text">$30.00  <span class="float-end rating-stars" >
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+               </span>
+              </p>
+              
+              <a class="btn btn-outline-primary text-center" href="cart.html?product=Wormisule&price=30.00&image=assets/images2/6.webp" role="button">Add to Cart</a>
+        
+                
+              </div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-md-4 col-sm-6 ">
+        <div class="card product-item" >
+            <img src="assets/images2/7.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-subtitle mb-2 text-muted"> Hd Tablets </h5>
+              
+              <p class="card-text">$10.00  <span class="float-end rating-stars" >
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+             </span>
+            </p>
+            <a class="btn btn-outline-primary text-center" href="cart.html?product=Hd%20tablets&price=10.00&image=assets/images2/7.webp" role="button">Add to Cart</a>
+        </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-md-4 col-sm-6 ">
+            <div class="card product-item" >
+                <img src="assets/images2/8.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-subtitle mb-2 text-muted"> Nurokind pet </h5>
+                  
+                  <p class="card-text">$10.00  <span class="float-end rating-stars" >
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                 </span>
+                </p>
+                <a class="btn btn-outline-primary text-center" href="cart.html?product=Nurokind%20Pet&price=10.00&image=assets/images2/8.webpg" role="button">Add to Cart</a>
+            </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-md-4 col-sm-6 ">
+                <div class="card product-item" >
+                    <img src="assets/images2/9.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-subtitle mb-2 text-muted"> Furlicks </h5>
+                      
+                      <p class="card-text">$10.00  <span class="float-end rating-stars" >
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                     </span>
+                    </p>
+                    <a class="btn btn-outline-primary text-center" href="cart.html?product=Furlicks&price=10.00&image=assets/images/product-7.jpg" role="button">Add to Cart</a>
+                </div>
+                  </div>
+                </div>
+                <div class="col-xl-3 col-md-4 col-sm-6 ">
+                    <div class="card product-item" >
+                        <img src="assets/images2/pharmacy 6.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-subtitle mb-2 text-muted"> Dermisule </h5>
+                          
+                          <p class="card-text">$10.00  <span class="float-end rating-stars" >
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                         </span>
+                        </p>
+                        <a class="btn btn-outline-primary text-center" href="cart.html?product=Dermisule&price=10.00&image=assets/images2/pharmacy 6.webp" role="button">Add to Cart</a>
+                    </div>
+                      </div>
+                    </div>
+                    <div class="col-xl-3 col-md-4 col-sm-6 ">
+                        <div class="card product-item" >
+                            <img src="assets/images2/pharmacy 10.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-subtitle mb-2 text-muted"> Henlo </h5>
+                              
+                              <p class="card-text">$10.00  <span class="float-end rating-stars" >
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                             </span>
+                            </p>
+                            <a class="btn btn-outline-primary text-center" href="cart.html?product=Henlo&price=10.00&image=assets/images2/pharmacy 10.webp" role="button">Add to Cart</a>
+                        </div>
+                          </div>
+                        </div>
+        <div class="col-xl-3 col-md-4 col-sm-6 ">
+        <div class="card product-item" >
+            <img src="assets/images2/pharmacy 11.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-subtitle mb-2 text-muted">immunity chewsticks</h5>
+              
+              <p class="card-text">$12.00  <span class="float-end rating-stars" >
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+             </span>
+            </p>
+            <a class="btn btn-outline-primary text-center" href="cart.html?product=immunity%20chewstick&price=12.00&image=assets/images2/pharmacy 11.webp" role="button">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+        </div>
+        </div>
+
+     <!--Cards item end-->
+     <section class="single-image-section py-5">
+        <div class="container text-center">
+          <img src="assets/images2/banner2.webp" alt="Wellness Banner" class="img-fluid rounded shadow">
+        </div>
+      </section>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>  
+    </body>
+</html>
