@@ -54,7 +54,7 @@
   /* Offer Section Styling */
   .section.offer {
       padding: 4rem 1rem; /* Added horizontal padding for smaller screens */
-      background-color: #f4f4f4; /* Slightly darker background for better contrast */
+      background-color: white; /* Slightly darker background for better contrast */
   }
   
   .container {
@@ -175,6 +175,18 @@
       width: 100%;  /* Ensure the image covers the full width */
       height: auto; /* Maintain aspect ratio */
   }
+
+
+  .nav-link:hover {
+    color: #D16A5D !important;
+    text-decoration: underline;
+}
+
+.btn-outline-light:hover {
+    background-color: #D16A5D !important;
+    border-color: #D16A5D !important;
+}
+
   
 
   
